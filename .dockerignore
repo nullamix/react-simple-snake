@@ -1,0 +1,27 @@
+Dockerfile
+.dockerignore
+.gitignore
+.git/
+
+
+/node_modules
+/.pnp
+.pnp.js
+
+.prettierrc
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/lib
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/demo/public/*.js
+
+/demo/public/*.js
